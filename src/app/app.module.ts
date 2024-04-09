@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { LargeDogsComponent } from './large-dogs/large-dogs.component';
 import { SmallDogsComponent } from './small-dogs/small-dogs.component';
 import { HeaderComponent } from './header/header.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HeaderComponent } from './header/header.component';
     HeaderComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
