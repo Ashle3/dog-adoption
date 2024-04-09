@@ -1,0 +1,22 @@
+
+a{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* li.a:hover{
+    background-color: purple;
+    color: black;
+} */
+
+h1{
+    font-size: 30px;
+    color: white;
+}
+
+.header{
+    background-color: #a333df;
+}
+
