@@ -1,0 +1,188 @@
+{
+
+    "smallDogs": [
+    {
+        "id": "0",
+        "name": "Taquito",
+        "breed": "Chihuaua",
+        "gender": "M",
+        "age": "Adult",
+        "notes": "Is a very good boy!",
+        "img": "../images/dogs/taquito.jpg"
+    },
+    
+    {
+        "id": "1",
+        "name": "Opal",
+        "breed": "Pug",
+        "gender": "F",
+        "age": "Senior",
+        "notes": "Is a senior, so may have some health problems. Only has one eye.",
+        "img": "../images/dogs/opal.jpg"
+    },
+    
+    {
+        "id": "2",
+        "name": "Mimi",
+        "breed": "Toy Poodle",
+        "gender": "F",
+        "age":"Adult",
+        "notes": "Is a little shy, but will be your best friend once you get to know her!",
+        "img": "../images/dogs/mimi.jpg"
+    },
+    
+    {
+        "id": "3",
+        "name": "Oreo",
+        "breed": "Boston Terrier",
+        "gender": "M",
+        "age": "Adult",
+        "notes": "Has a lot of energy. Is great with children.",
+        "img": "../images/dogs/oreo.jpg"
+    },
+    
+    {
+        "id": "4",
+        "name": "Daisy",
+        "breed": "Chihuaua",
+        "gender": "F",
+        "age": "Puppy",
+        "notes": "Is a little shy.",
+        "img": "../images/dogs/daisy.jpg"
+    },
+    
+    {
+        "id": "5",
+        "name": "Bilbo",
+        "breed":"Pug",
+        "gender":"M",
+        "age":"Adult",
+        "notes": "Is a goofy guy. Is overweight and has breathing problems.",   
+        "img": "../images/dogs/bilbo.jpg"
+    },
+    
+    {
+        "id": "6",
+        "name": "Oscar",
+        "breed": "Dachsund",
+        "gender": "M",
+        "age": "Puppy",
+        "notes": "His bark is worse than his bite. Was brought in with his sister Vienna.",
+        "img": "../images/dogs/oscar.jpg"
+    },
+    
+    {
+        "id": "7",
+        "name": "Vienna",
+        "breed":"Dachsund",
+        "gender":"F",
+        "age":"Puppy",
+        "notes": "Is a sweet girl. Was brought in with her brother Oscar.",
+        "img": "../images/dogs/vienna.jpg"
+    },
+    
+    {
+        "id": "8",
+        "name": "Clementine",
+        "breed": "English Bulldog",
+        "gender": "F",
+        "age": "Adult",
+        "notes": "Has breathing problems, but will be a loyal best friend.",
+        "img": "../images/dogs/clementine.jpg"
+    }
+    ],
+
+    "largeDogs": [
+        {
+            "id": "0",
+            "name": "Oslo",
+            "breed": "German Shepherd",
+            "gender": "M",
+            "age": "Adult",
+            "notes": "Will be a loyal companion for any family.",
+            "img": "../images/dogs/oslo.jpg"
+        },
+    
+        {
+            "id": "1",
+            "name":"Ebony",
+            "breed": "Black Lab",
+            "gender": "F",
+            "age": "Adult",
+            "notes": "She is a shy but sweet girl.",
+            "img": "../images/dogs/ebony.jpg"
+        },
+    
+        {
+            "id": "2",
+            "name": "Bailey",
+            "breed": "Pitbull",
+            "gender": "F",
+            "age":"Adult",
+            "notes": "She is a kind and gentle soul.",
+            "img": "../images/dogs/bailey.jpg"
+        },
+    
+        {
+            "id": "3",
+            "name": "Remington",
+            "breed": "Golden Retriever",
+            "gender": "M",
+            "age": "Senior",
+            "notes": "He is a laid-back friend.",
+            "img": "../images/dogs/remington.jpg"
+        },
+    
+        {
+            "id": "4",
+            "name": "Maxwell",
+            "breed": "Yellow Lab",
+            "gender":"M",
+            "age": "Adult",
+            "notes": "He is an energetic and lovable pup.",
+            "img": "../images/dogs/maxwell.jpg"
+        },
+    
+        {
+            "id": "5",
+            "name": "Blaze",
+            "breed": "Pitbull",
+            "gender":"M",
+            "age":"Adult",
+            "notes": "He is a large dog, but you will find that he is a gentle giant.",
+            "img": "../images/dogs/blaze.jpg"
+        },
+    
+        {
+            "id": "6",
+            "name": "Cinnabon",
+            "breed": "Pitbull",
+            "gender":"M",
+            "age": "Puppy",
+            "notes": "He is energetic, but is great with children.",
+            "img": "../images/dogs/cinnabon.jpg"
+        },
+    
+        {
+            "id": "7",
+            "name": "Tulip",
+            "breed": "Pitbull",
+            "gender": "F",
+            "age": "Puppy",
+            "notes": "She will make a great family dog.",
+            "img": "../images/dogs/tulip.jpg"
+        },
+    
+        {
+            "id": "8",
+            "name": "Sadie",
+            "breed":"Golden Retriever",
+            "gender":"F",
+            "age": "Adult",
+            "notes": "She is the friendliest dog you will ever meet.",
+            "img": "../images/dogs/sadie.jpg"
+        }
+    ]
+    
+}
+    
