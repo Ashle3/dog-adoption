@@ -8,4 +8,4 @@ const sdogSchema = mongoose.Schema({
     img: { type: String, required: true }
 });
 
-module.exports = mongoose.model('Small Dog', sdogSchema);
+module.exports = mongoose.model('SmallDog', sdogSchema);
