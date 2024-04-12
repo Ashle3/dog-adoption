@@ -44,6 +44,10 @@ export class SmallService {
       return this.smallDogs.slice();
   }
 
+  getSmallDog(id: string): SmallDog{
+    return this.smallDogs.find((s) => s.id === id);
+  }
+
   getMaxId(): number {
     let maxId = 0;
 
