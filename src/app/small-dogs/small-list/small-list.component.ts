@@ -1,6 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { SmallDog } from '../small-dog.model';
 import { Subscription } from 'rxjs';
+
+import { SmallDog } from '../small-dog.model';
 import { SmallService } from '../small-service.service';
 
 @Component({
@@ -11,7 +12,6 @@ import { SmallService } from '../small-service.service';
 export class SmallListComponent implements OnInit, OnDestroy{
   smallDogs: SmallDog[] = [];
   subscription: Subscription;
-  term: string;
 
   constructor(private smallService: SmallService){}
 

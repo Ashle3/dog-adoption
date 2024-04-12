@@ -8,7 +8,6 @@ import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SmallListComponent } from './small-dogs/small-list/small-list.component';
 import { HttpClientModule } from '@angular/common/http';
-import { SmallDogItemComponent } from './small-dogs/small-dog-item/small-dog-item.component';
 import { SmallDogEditComponent } from './small-dogs/small-dog-edit/small-dog-edit.component';
 import { SmallDogDetailComponent } from './small-dogs/small-dog-detail/small-dog-detail.component';
 
@@ -19,7 +18,6 @@ import { SmallDogDetailComponent } from './small-dogs/small-dog-detail/small-dog
     SmallDogsComponent,
     HeaderComponent,
     SmallListComponent,
-    SmallDogItemComponent,
     SmallDogEditComponent,
     SmallDogDetailComponent
   ],

@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 export class SmallService {
   smalldogSelectedEvent = new EventEmitter<SmallDog>();
   smalldogListChangedEvent = new Subject<SmallDog[]>();
-  smalldogs: SmallDog[] = [];
+  smallDogs: SmallDog[] = [];
   maxContactId: number;
 
 
@@ -21,19 +21,33 @@ export class SmallService {
     this.http
       .get('https://ab-dog-adoption-default-rtdb.firebaseio.com/smallDogs.json')
       .subscribe(
-        (smallDogs: SmallDog[]) => {
-          this.smalldogs = smallDogs;
-          this.maxContactId = this.getMaxId(); 
+        (smalldogs: SmallDog[]) => {
+          this.smallDogs = smalldogs;
+          this.maxContactId = this.getMaxId();
+          this.smallDogs.sort((a, b) => { 
+            const nameA = a.name.toUpperCase();
+            const nameB = b.name.toUpperCase();
+            if (nameA < nameB){
+              return -1;
+            }
+            if (nameA > nameB){
+              return 1;
+            }
+
+            return 0;
+          });
+          let smallDogsListClone = this.smallDogs.slice();
+          this.smalldogListChangedEvent.next(smallDogsListClone);
         }
       );
 
-      return this.smalldogs.slice();
+      return this.smallDogs.slice();
   }
 
   getMaxId(): number {
     let maxId = 0;
 
-    for (let smallDog of this.smalldogs){
+    for (let smallDog of this.smallDogs){
       let currentId = +smallDog.id;
       if (currentId > maxId){
         maxId = currentId;
